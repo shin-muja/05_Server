@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-// "/main"요청을 매핑하여 처리하는 서블릿
+// "/main"요청을 매핑하여 처리하는 서블릿(==Controller)
 @WebServlet("/main")
 public class MainServlet extends HttpServlet {
 
@@ -43,3 +43,4 @@ public class MainServlet extends HttpServlet {
 		}
 	}
 }
+

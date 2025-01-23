@@ -36,11 +36,9 @@ public class BookServlet extends HttpServlet {
 		// request scope 객체에 속성으로 추가(세팅)
 		req.setAttribute("bookList", bookList);
 		
-		
 		// 응답 처리
 		
 		// JSP로 요청 위임 (경로는 webapp 폴더 기준
 		req.getRequestDispatcher("/WEB-INF/views/book/bookList.jsp").forward(req, resp);
-		
 	}
 }

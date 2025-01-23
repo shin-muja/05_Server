@@ -19,5 +19,7 @@ public interface TodoListDAO {
 	 */
 	void saveFile() throws Exception;
 
+	Todo todoDetailView(int index);
+
 	
 }

@@ -16,3 +16,13 @@ Servlet Container = WAS : Servlet을 관리해주는것
 - 웹서버 통신을 위한 소켓, IO 스트림 생성해주는 역할을 함.
 
 MVC패턴 : Medel, View, Controller
+
+계정을 만들기 위해선 sys로 접속
+
+계정 생성후 grant 게정 권한 부여 설정 해야함
+
+논리자 유의 사항 AND가 OR보다 우선순위가 높음
+WHERE HAVING 조심해야함
+
+LKIE 에서 '_'나 '%'를 문자로 인식하고 싶을 때 ESCAPE
+구문을 설정 후 해당 표현하고자 하는 '-'나 '%' 앞에 작성

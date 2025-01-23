@@ -35,6 +35,15 @@ public class TodoListServiceImpl implements TodoListService {
 		
 		return dao.todoAdd(todo);
 	}
+
+	@Override
+	public Todo todoDetailView(int index) {
+		// TODO Auto-generated method stub
+
+		Todo todo = dao.todoDetailView(index);
+		
+		return todo;
+	}
 	
 	
 }
